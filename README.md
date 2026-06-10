@@ -1,5 +1,5 @@
-#### [Presentation Slides](202605-26 slides.pdf)
-#### [Demo Video](creative ai agent 2.mp4)
+#### [Presentation Slides](202605-26_slides.pdf)
+#### [Demo Video](creative_ai_agent.mp4)
 #### [Technical Report](202605-26.pdf)
 #### [Github Repo](https://github.com/OrlandoFang/EECS6895_Startup_AI_Agents_Platform)
 ## Introduction 
