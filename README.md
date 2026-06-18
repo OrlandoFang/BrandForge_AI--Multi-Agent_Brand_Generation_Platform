@@ -25,13 +25,13 @@ Visualizations are delivered through a React dashboard with five pages: Brand Hu
 
 ## Screenshots
 #### Brand Hub
-[Brand Hub](brandforge1.png)
+![Brand Hub](brandforge1.png)
 #### Frontend Agent
-[Frontend Agent](brandforge2.png)
+![Frontend Agent](brandforge2.png)
 #### Logo Agent
-[Logo Agent](brandforge3.png)
+![Logo Agent](brandforge3.png)
 #### Advertisement Agent
-[Advertisement Agent](brandforge4.png)
+![Advertisement Agent](brandforge4.png)
 
 ## Language
 TypeScript, Python, CSS
