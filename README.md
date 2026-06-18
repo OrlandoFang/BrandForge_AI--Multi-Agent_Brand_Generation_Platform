@@ -16,15 +16,25 @@ The performance data includes key metrics, such as CPC, CPM, CPA, CTR, and conve
 
 The policy corpus consists of official advertising guidelines for Meta, Google, TikTok, and LinkedIn, covering Prohibited Content, Restricted Categories, Quality Standards, etc. These data were scraped from each platform’s latest ad guideline websites.
 
-## Language
-TypeScript, Python, CSS
-
-## Contributors
-Tianrui Fang, Hao Chen, Tianyu Zhan
-
 ## Analytics
 System modules include: a Brand Agent (GPT-4o extracts brand profile from text), a Logo Agent (SVG generation + DALL-E 3 image), a Marketing Agent (tool-using LLM with RAG), and a UI/Web Agent (two-step plan-then-generate for Tailwind landing pages), all orchestrated by an AI Gateway that fans out tasks concurrently via asyncio.gather and persists results to MongoDB.
 
 Algorithms/analytics center on the Marketing Agent: an LLM router classifies user queries into execution plans, a platform chooser tool filters ad benchmark CSVs (CPC/CPM/CPA by industry and region) with fuzzy matching, and a RAG pipeline uses FAISS cosine-similarity search over sentence-transformer embeddings (all-MiniLM-L6-v2) to retrieve ad policy documents for cited answers.
 
 Visualizations are delivered through a React dashboard with five pages: Brand Hub (color swatches, logo preview, website iframe), Web Architect (device-mockup preview), Logo Lab (SVG/PNG download), and Marketing Chat (rendered markdown strategy with charts via Recharts).
+
+## Screenshots
+#### Brand Hub
+[Brand Hub](brandforge1.png)
+#### Frontend Agent
+[Frontend Agent](brandforge2.png)
+#### Logo Agent
+[Logo Agent](brandforge3.png)
+#### Advertisement Agent
+[Advertisement Agent](brandforge4.png)
+
+## Language
+TypeScript, Python, CSS
+
+## Contributors
+Tianrui Fang, Hao Chen, Tianyu Zhan
